@@ -5,7 +5,7 @@ ___
 
 # Installation
 - Run command: `git clone URL_LINK_Here`
-- open folder
+- ***open folder***
 - Run command: `npm install`
 
 ___
