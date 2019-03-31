@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //Components
-import Header from './Header';
+import Logo from './Logo';
 import Icon from './Icon';
 import Body from './Body';
 
@@ -9,7 +9,7 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <Logo />
                 <Icon />
                 <Body />
             </div>

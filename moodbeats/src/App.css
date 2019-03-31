@@ -1,26 +1,110 @@
 * {
   padding: 0;
   margin: 0;
+  color: #fff;
 }
 body {
-  background-color: #556DAC;
+  background-color: #00acee;
+  opacity: 100%;
 }
 .App {
   text-align: center;
-  
+}
+.login-button {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+#login-form {
+  width: 350px;
+  margin: 0 auto;
+}
+.forget-password {
+  padding: 0;
+  margin: 0;
+}
+.track-mode {
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 350px;
+  border-radius: 30px;
+  height: 60px;
 }
 
-#home-icon {
+.head {
+  text-align: left;
+  padding: 15px;
+}
+.form-check {
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  width: 70%;
+}
+input[type="checkbox"] {
+  zoom: 1.7;
+}
+
+hr {
+  height: 5px;
+}
+#logo {
+  width: 150px;
+  height: 150px;
+}
+
+#title {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+#home-icon, #hamburger-icon {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
   padding: 10px;
-  width: 24px;
-  height: 24px;
+  width: 50px;
+  height: 50px;
 }
+
 
 #heart-icon {
   width: 100px;
   height: 100px;
   fill: white;
+  margin-top: 80px;
+}
+
+#login-button {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+#register-button {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .head {
+    text-align: center;
+  }
+  .form-check {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  width: 20%;
+}
+input[type="checkbox"] {
+  zoom: 1.7;
+}
+.track-mode {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 350px;
+  border-radius: 30px;
+  height: 50px;
+}
 }
